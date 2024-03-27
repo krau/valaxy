@@ -36,6 +36,12 @@ addons:
     desc: Twikoo comment.
     tags:
       - comment
+  - name: valaxy-addon-artalk
+    icon: i-ri-chat-3-line
+    repo: https://github.com/krau/valaxy-addon-artalk
+    desc: Artalk comment.
+    tags:
+      - comment
 ---
 
 <AddonGallery :addons="$frontmatter.addons" />
